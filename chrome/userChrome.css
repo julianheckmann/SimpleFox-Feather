@@ -249,74 +249,26 @@ If this looks weird, comment out the window buttons section.
 /* browser-aero.css | chrome://browser/skin/browser-aero.css */
 
 
-.titlebar-min {
-  /* list-style-image: url(chrome://browser/skin/window-controls/minimize-highcontrast.svg); */
-  list-style-image: url(./minus.svg) !important;
-  fill: white !important;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg) brightness(104%) contrast(102%);
-}
-.titlebar-max {
-  /* list-style-image: url(chrome://browser/skin/window-controls/maximize-highcontrast.svg); */
-  list-style-image: url(./maximize.svg) !important;
-  fill: white !important;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg) brightness(104%) contrast(102%);
-}
-.titlebar-restore {
-  /* list-style-image: url(chrome://browser/skin/window-controls/restore-highcontrast.svg); */
-  list-style-image: url(./minimize.svg) !important;
-  fill: white !important;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg) brightness(104%) contrast(102%);
-}
-.titlebar-close {
-  /* list-style-image: url(chrome://browser/skin/window-controls/close-highcontrast.svg); */
-  list-style-image: url(./x.svg) !important;
-  fill: white !important;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg) brightness(104%) contrast(102%);
-}
-.titlebar-close:hover {
-  /* list-style-image: url(chrome://browser/skin/window-controls/close-highcontrast.svg); */
-  background-color: red !important;
-}
+.titlebar-min {}
+.titlebar-max {}
+.titlebar-restore {}
+.titlebar-close {}
+.titlebar-close:hover {}
 
 /* toolbarbutton-icons.css | chrome://browser/skin/toolbarbutton-icons.css */
 
-#reload-button {
-  /* list-style-image: url("chrome://global/skin/icons/reload.svg"); */
-  /* list-style-image: url(")"); */
-  list-style-image: url(./refresh-ccw.svg) !important; 
-  fill: white !important;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg) brightness(104%) contrast(102%);
-}
+#reload-button {}
 
 /* identity-block.css | chrome://browser/skin/identity-block/identity-block.css */
 
-#identity-box[pageproxystate="valid"].verifiedDomain #identity-icon, #identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon {
-  /* list-style-image: url(chrome://global/skin/icons/security.svg); */
-  list-style-image: url(./lock.svg) !important;
-  fill: white !important;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg) brightness(104%) contrast(102%);
-}
+#identity-box[pageproxystate="valid"].verifiedDomain #identity-icon, #identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon {}
 
 /* tabs.css | chrome://browser/skin/tabs.css */
 
-#tabs-newtab-button, #TabsToolbar #new-tab-button {
-  /* list-style-image: url(chrome://global/skin/icons/plus.svg); */
-  list-style-image: url(./plus.svg) !important;
-  fill: white !important;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg) brightness(104%) contrast(102%);
-}
+#tabs-newtab-button, #TabsToolbar #new-tab-button {}
 
 
-#alltabs-button {
-  /* list-style-image: url(chrome://global/skin/icons/arrow-down.svg); */
-  list-style-image: url(./chevron-down.svg) !important;
-  fill: white !important;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg) brightness(104%) contrast(102%);
-}
+#alltabs-button {}
 
 
-#permissions-granted-icon {
-  list-style-image: url(./toggle-left.svg) !important;
-  fill: white !important;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg) brightness(104%) contrast(102%) !important;
-}
+#permissions-granted-icon {}
